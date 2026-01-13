@@ -48,6 +48,7 @@
 ## 👥 Hedef Kitle
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4ecdc4', 'primaryTextColor': '#1a1a2e', 'primaryBorderColor': '#26a69a', 'lineColor': '#a8dadc', 'secondaryColor': '#f4a261', 'tertiaryColor': '#e9c46a', 'nodeTextColor': '#1a1a2e'}}}%%
 mindmap
   root((Hedef Kitle))
     Öğrenciler
