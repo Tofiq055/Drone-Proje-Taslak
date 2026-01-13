@@ -11,7 +11,6 @@
 ## 📋 İçindekiler
 
 - [Bu Repo Nedir?](#-bu-repo-nedir)
-- [Hedef Kitle](#-hedef-kitle)
 - [Donanım Envanteri](#-donanım-envanteri)
 - [Sistem Mimarisi](#-sistem-mimarisi)
 - [Öğrenme Yol Haritası](#-öğrenme-yol-haritası)
@@ -45,37 +44,7 @@
 
 ---
 
-## 👥 Hedef Kitle
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4ecdc4', 'primaryTextColor': '#1a1a2e', 'primaryBorderColor': '#26a69a', 'lineColor': '#a8dadc', 'secondaryColor': '#f4a261', 'tertiaryColor': '#e9c46a', 'nodeTextColor': '#626277ff'}}}%%
-mindmap
-  root((Hedef Kitle))
-    Öğrenciler
-      Bilgisayar Mühendisliği
-      Elektrik-Elektronik
-      Mekatronik
-    Hobiciler
-      Drone meraklıları
-      DIY maker'lar
-      FPV pilotlar
-    Araştırmacılar
-      Akademisyenler
-      Startup kurucuları
-      Endüstriyel R&D
-```
-
-### Ön Gereksinimler
-
-| Seviye | Beklenen Bilgi |
-|--------|----------------|
-| 🟢 Başlangıç | Temel programlama mantığı (herhangi bir dil) |
-| 🟡 Orta | Python temelleri, Linux komut satırı |
-| 🔴 İleri | ROS 2 deneyimi, ML/AI temelleri |
-
----
-
-## 🛠️ Donanım Envanteri
+## ️ Donanım Envanteri
 
 ### Edge Computing Platformu
 
