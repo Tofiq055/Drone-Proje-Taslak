@@ -1,0 +1,153 @@
+# Drone Projesi GitHub Repository - Güncellenmiş Implementasyon Planı
+
+## 🎯 Proje Kapsamı Netliği
+
+> [!IMPORTANT]
+> **Bu repo NEDİR?** Türkçe eğitim dokümantasyonu + öğrenme yol haritası  
+> **Bu repo NE DEĞİLDİR?** Çalışır kod implementasyonu (henüz)
+
+| Soru | Cevap |
+|------|-------|
+| Fiziksel drone var mı? | ❌ Henüz yok, simülasyonla başlanacak |
+| Kod içerecek mi? | ⚠️ Sadece örnek snippet'ler, tam implementasyon değil |
+| Hedef | 📚 Öğrenme rehberi + proje planlaması |
+
+---
+
+## 📂 Güncellenmiş Dizin Yapısı
+
+```
+AI_generated_resources/
+├── README.md                          [YENİ]
+├── .cursorrules                       [MEVCUT rules.md → yeniden adlandır]
+├── CONTRIBUTING.md                    [YENİ]
+│
+├── 00-Start-Here/
+│   ├── hardware-anatomy.md            [YENİ - Öncelik 1]
+│   ├── quick-start-guide.md           [YENİ - Öncelik 2]
+│   └── glossary.md                    [YENİ - Öncelik 3]
+│
+├── 01-Concepts/
+│   ├── digital-twin-swarm.md          [YENİ - Öncelik 1]
+│   └── safety-ethics.md               [YENİ - Öncelik 2]
+│
+├── 02-Data-Management/                [YENİ KLASÖR]
+│   └── data-pipeline.md               [YENİ - Öncelik 1]
+│
+├── 03-Software-Stack/
+│   └── essential-skills.md            [YENİ - Öncelik 1]
+│
+├── 04-Roadmap/
+│   └── project-timeline.md            [YENİ - Öncelik 1]
+│
+├── 05-Simulation/
+│   └── simulation-setup.md            [YENİ - Öncelik 1]
+│
+├── 06-Research/
+│   └── literature-review.md           [YENİ - Öncelik 3]
+│
+└── 07-Demos/
+    └── showcase.md                    [YENİ - Öncelik 3]
+```
+
+---
+
+## 🔥 Öncelik 1 - Hemen Oluşturulacak (8 Dosya)
+
+### [NEW] [README.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/README.md)
+- Proje vizyonu + "Bu repo nedir/değildir" bölümü
+- Donanım envanteri tablosu
+- Öğrenme yol haritası özeti
+- Quick navigation linkleri
+
+---
+
+### [RENAME] rules.md → [.cursorrules](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/.cursorrules)
+- AI asistan kuralları olduğunu belirten header ekle
+
+---
+
+### [NEW] [00-Start-Here/hardware-anatomy.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/00-Start-Here/hardware-anatomy.md)
+- Beyin/Gözler/Altıncı His analojisi
+- Her donanım için specs tablosu + kullanım senaryoları
+- Yaygın hatalar ve çözümleri (Troubleshooting)
+
+---
+
+### [NEW] [01-Concepts/digital-twin-swarm.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/01-Concepts/digital-twin-swarm.md)
+- Thermal Digital Twin kavramı
+- Swarm Intelligence + otonom uçuş
+- Federated Learning + edge computing
+- Entegre mimari diyagramı
+
+---
+
+### [NEW] [02-Data-Management/data-pipeline.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/02-Data-Management/data-pipeline.md)
+- Uydu verisi kaynakları (Copernicus, Landsat, Sentinel)
+- Veri formatları: GeoTIFF, HDF5, NetCDF
+- ETL pipeline: Uydu → Sunucu → Drone sürüsü
+- Depolama stratejileri (NVMe, RAID, Cloud)
+
+---
+
+### [NEW] [03-Software-Stack/essential-skills.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/03-Software-Stack/essential-skills.md)
+- 4 seviyeli roadmap (0-8 ay)
+- ROS 2 + RViz özel bölümü
+- Model optimizasyonu (quantization, pruning)
+- Bandwidth ve latency optimizasyonu
+
+---
+
+### [NEW] [04-Roadmap/project-timeline.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/04-Roadmap/project-timeline.md)
+- Gantt chart (Mermaid)
+- 8 aylık sprint planlaması
+- Demo günleri ve milestone'lar
+- Kaynak kısıtlamaları ve alternatif planlar
+
+---
+
+### [NEW] [05-Simulation/simulation-setup.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/05-Simulation/simulation-setup.md)
+- Gazebo Ignition kurulumu
+- SITL (Software In The Loop) konfigürasyonu
+- PX4/ArduPilot simülasyon entegrasyonu
+- Unity/Unreal alternatif seçenekler
+
+---
+
+## ⚠️ Öncelik 2 - Yakın Zamanda (3 Dosya)
+
+### [NEW] [00-Start-Here/quick-start-guide.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/00-Start-Here/quick-start-guide.md)
+- İlk 30 dakika setup rehberi
+
+### [NEW] [01-Concepts/safety-ethics.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/01-Concepts/safety-ethics.md)
+- Türkiye drone mevzuatı (SHGM kuralları)
+- Termal kamera gizlilik sınırları
+
+### [NEW] [CONTRIBUTING.md](file:///c:/Users/Tofig/Documents/Drone-Proje-Taslak/AI_generated_resources/CONTRIBUTING.md)
+- PR template, issue template, branch conventions
+
+---
+
+## 💡 Öncelik 3 - İlerleyen Süreçte (3 Dosya)
+
+- `00-Start-Here/glossary.md` - Terim sözlüğü
+- `06-Research/literature-review.md` - Akademik makaleler
+- `07-Demos/showcase.md` - Video/GIF/sunum linkleri
+
+---
+
+## ✅ Execution Order
+
+```mermaid
+graph LR
+    A[1. README.md] --> B[2. .cursorrules]
+    B --> C[3. hardware-anatomy.md]
+    C --> D[4. digital-twin-swarm.md]
+    D --> E[5. data-pipeline.md]
+    E --> F[6. essential-skills.md]
+    F --> G[7. project-timeline.md]
+    G --> H[8. simulation-setup.md]
+```
+
+> [!NOTE]
+> Öncelik 1 dosyaları tamamlandıktan sonra Öncelik 2 ve 3 için ayrı bir onay alınacak.
